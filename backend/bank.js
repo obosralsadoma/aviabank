@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
-class BankAccount {
+export class BankAccount {
     constructor(pin) {
         this.number = getRandomInt(10243719, 99999999)
         this.pin = pin
