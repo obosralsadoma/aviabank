@@ -1,6 +1,6 @@
-import { BankAccount } from "bank.js";
+import { BankAccount } from "./bank.js";
 
-class AviaID extends BankAccount {
+export class AviaID extends BankAccount {
     constructor(name, surname, otchestvo, age, password, login, id) {
         this.name = name
         this.surname = surname
