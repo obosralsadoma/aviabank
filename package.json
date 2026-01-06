@@ -1,0 +1,10 @@
+{
+  "name": "aviabank",
+  "version": "26.0.1.1pa",
+  "devDependencies": {
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "eslint": "^9.39.2"
+  }
+}
